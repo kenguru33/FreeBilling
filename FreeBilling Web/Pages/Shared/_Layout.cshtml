@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Free Billing @ViewBag.Title</title>
+    <link href="~/site.css" rel="stylesheet" asp-append-version="true" />
+
+    @RenderSection("header", false)
+</head>
+<body>
+    <header class="flex w-full justify-between bg-blue-900 p-3 text-white">
+        <h1 class="text-2xl font-bold"><i class="fa-solid fa-sack-dollar"></i> Free Billing</h1>
+        <ul class="flex text-blue-300">
+            <li class="mx-2 hover:text-blue-500"><a href="/">Home</a></li>
+            <li class="mx-2 hover:text-blue-500"><a href="/Contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="h-[calc(100vh-80px)] w-full overflow-auto bg-gray-100 p-2">
+        @RenderBody()
+    </div>
+    <footer class="bg-black text-center text-white">&copy; 2024 Free Billing</footer>
+    @RenderSection("scripts", false)
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

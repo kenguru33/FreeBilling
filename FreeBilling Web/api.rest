@@ -1,0 +1,5 @@
+﻿GET http://localhost:5037/api/customers
+
+###
+
+GET http://localhost:5037/api/customers/4

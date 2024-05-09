@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeBilling.Web", "FreeBilling Web\FreeBilling.Web.csproj", "{345602F1-D17D-4853-B660-2502EE077BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{345602F1-D17D-4853-B660-2502EE077BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345602F1-D17D-4853-B660-2502EE077BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345602F1-D17D-4853-B660-2502EE077BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345602F1-D17D-4853-B660-2502EE077BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA37AC47-54C1-4FA0-9A8E-C3C1AB171A17}
+	EndGlobalSection
+EndGlobal
